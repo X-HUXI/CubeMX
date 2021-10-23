@@ -1,0 +1,6 @@
+--cpu Cortex-M3
+".\objects\test1.o"
+--strict --scatter ".\Objects\Test1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Test1.map" -o .\Objects\Test1.axf
